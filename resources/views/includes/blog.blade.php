@@ -14,12 +14,12 @@
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="">
             <div class="h-entry">
               <a href="single.html">
-                <img src="images/img_1.jpg" alt="Image" class="img-fluid">
+                <img src="{{$blog->image_Url}}" alt="Image" class="img-fluid">
               </a>
               <h2 class="font-size-regular"><a href="#">{{$blog->blog_title}}</a></h2>
               <div class="meta mb-4">Published<span class="mx-2">&bullet;</span> {{$blog->created_at}}<span class="mx-2">&bullet;</span> <a href="#">News</a></div>
               <p>{{$blog->story}}</p>
-              <p><a href="#">Continue Reading...</a></p>
+              <p><a href='{{url("/readmore/{$blog->id}")}}' class="btn btn-primary">More</a></p>
             </div> 
           </div>
 
@@ -28,7 +28,8 @@
                 <h2>NO BLOG FOR NOW</h2>
 
                 @endif
-          
+                {{$blogs->links("pagination::bootstrap-4")}}
+           
          
         </div>
       </div>

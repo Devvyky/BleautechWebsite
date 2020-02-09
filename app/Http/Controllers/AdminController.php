@@ -26,14 +26,14 @@ public function __construct()
      */
 public function index()
     {
-        $blogs = Blog::all();
+        $blogs = Blog::paginate(5);
 
         return view('admin.admin',compact('blogs'));
 }
 
 public function feedback()
     {
-        $feedbacks = Contact::all();;
+        $feedbacks = Contact::paginate(10);
     
         return view('admin.feedback',compact('feedbacks'));
     }
@@ -65,7 +65,7 @@ public function publishBlog(Request $request)
 
 public function viewBlogs()
     {
-        $blogs = Blog::all();
+        $blogs = Blog::paginate(5);
     
         return view('admin.viewblogs',compact('blogs'));
 }

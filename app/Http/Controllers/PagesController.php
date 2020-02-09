@@ -10,10 +10,15 @@ class PagesController extends Controller
 {
     
 public function getHome(){ 
-        $teams = Team::all();;
-        $blogs = Blog::all();;
+        $teams = Team::paginate(6);
+        $blogs = Blog::paginate(3);
 
     	return view('index',compact('teams','blogs'));
+}
+
+public function readMore($id){
+    $blog = Blog::find($id);
+    return view('includes.singleblog', compact('blog'));
 }
     
 public function message(Request $request)

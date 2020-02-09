@@ -12,7 +12,7 @@
 <body>
   <nav class="navbar navbar-expand-sm navbar-dark bg-dark p-0">
     <div class="container">
-      <a href="index.html" class="navbar-brand"><img src="images/bleau8.png" alt=""></a>
+      <a href="index.html" class="navbar-brand"><img src="{{ asset('images/bleau8.png') }}" alt=""></a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>

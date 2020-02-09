@@ -80,6 +80,7 @@
                 <h2>NO BLOCK POST</h2>
 
                 @endif
+                {{$blogs->links("pagination::bootstrap-4")}}
           </div>
         </div>
         <div class="col-md-3">

@@ -1,18 +1,57 @@
-<div class="col-md-8">
-                @if(count($feedbacks) > 0)
+@extends('layouts.admin')
 
-                @foreach($feedbacks->all() as $feedback)
-                    <li>{{$feedback->id}}</li>
-                    <li>{{$feedback->firstname}}</li>
-                    <li>{{$feedback->lastname}}</li>
-                    <li>{{$feedback->email}}</li>
-                    <li>{{$feedback->subject}}</li>
-                    <li>{{$feedback->message}}</li>
-                    <li>{{$feedback->created_at}}</li>
-                @endforeach
+@section('content')
+
+
+<section id="posts">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9">
+          <div class="card">
+            <div class="card-header">
+              <h4>Latest Posts</h4>
+            </div><hr><hr>
+            @if(count($feedbacks) > 0) 
+
+            @foreach($feedbacks->all() as $feedback)
+            <table class="table table-striped">
+              <thead class="thead-inverse">
+                <tr>
+                  <th>#</th>
+                  <th>Name</th>
+                  <th>Email</th>
+                  <th>Subject</th>
+                  <th>Message</th>
+                  <th>Date Sent</th>
+                  <th></th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td scope="row">{{$feedback->id}}</td>
+                  <td>{{$feedback->feedback_firstname}}</td>
+                  <td>{{$feedback->email}}</td>
+                  <td>{{$feedback->subject}}</td>
+                  <td>{{$feedback->message}}</td>
+                  <td>{{$feedback->created_at}}</td>
+                  
+                </tr>
+                
+              </tbody>
+            </table>
+            @endforeach
                 @else
-                <h2>NO FEEDBACK FOR NOW</h2>
+                <h2>NO FEEDBACK POST</h2>
 
                 @endif
-
-                </div>
+                {{$feedbacks->links("pagination::bootstrap-4")}}
+          </div>
+        </div>
+       
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+@endsection
