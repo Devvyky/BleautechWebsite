@@ -1,583 +1,512 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>bleautech Web page</title>
+    <title>Bleautech Webpage</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
-
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
 
     <link rel="stylesheet" href="css/aos.css">
 
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
-    
   </head>
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-  
-
-  <div id="overlayer"></div>
-  <div class="loader">
-    <div class="spinner-border text-primary" role="status">
-      <span class="sr-only">Loading...</span>
-    </div>
-  </div>
-
-
-  <div class="site-wrap">
-
-    <div class="site-mobile-menu site-navbar-target">
-      <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close mt-3">
-          <span class="icon-close2 js-menu-toggle"></span>
-        </div>
-      </div>
-      <div class="site-mobile-menu-body"></div>
-    </div>
-   
+  <body>
     
-    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html"><img src="images/bleauLogo.png" alt=""></a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
 
-      <div class="container">
-        <div class="row align-items-center">
-          
-          <div class="col-6 col-xl-2">
-            <img src="images/bleauLogo.png" alt="#"><a href="index.html" class="nav-link"></a></img>
-          </div>
-
-          <div class="col-12 col-md-10 d-none d-xl-block">
-            <nav class="site-navigation position-relative text-right" role="navigation">
-
-              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li><a href="index.html" class="nav-link">Home</a></li>
-                <li class="has-children">
-                  <a href="#about-section" class="nav-link">About Us</a>
-                  <ul class="dropdown">
-                    <li><a href="team.html" class="nav-link">Team</a></li>
-                    <li class="has-children">
-                      <a href="#">More Links</a>
-                      <ul class="dropdown">
-                        <li><a href="#">Dashboard</a></li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-                <li><a href="#services-section" class="nav-link">Services</a></li>
-                <li><a href="#pricing-section" class="nav-link">Pricing</a></li>
-                <li><a href="#blog-section" class="nav-link">Blog</a></li>
-                <li><a href="#contact-section" class="nav-link">Contact</a></li>
-              </ul>
-            </nav>
-          </div>
-
-
-          <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a></div>
-
-        </div>
-      </div>
-      
-    </header>
-
-  
-     
-    <div class="site-blocks-cover overlay" style="background-image: url(images/hero_2.jpg);" data-aos="fade" id="home-section">
-
-      <div class="container">
-        <div class="row align-items-center justify-content-center">
-
-          
-          <div class="col-md-8 mt-lg-5 text-center">
-            <h1 class="text-uppercase" data-aos="fade-up">Welcome</h1>
-            <p class="mb-5 desc"  data-aos="fade-up" data-aos-delay="100">We are a Technology company based in Owerri, 
-              we offer all kinds of designs, web development, digital marketing, content creation, Technology Consulting and Enterprise Transformation</p>
-            <div data-aos="fade-up" data-aos-delay="100">
-              <a href="#contact-section" class="btn smoothscroll btn-primary mr-2 mb-2">Get In Touch</a>
-            </div>
-          </div>
-            
-        </div>
-      </div>
-
-      <a href="#about-section" class="mouse smoothscroll">
-        <span class="mouse-icon">
-          <span class="mouse-wheel"></span>
-        </span>
-      </a>
-    </div>  
-
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+	          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+	          <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+	          <li class="nav-item"><a href="team.html" class="nav-link">Team</a></li>
+	          <li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>
+	          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	          <li class="nav-item cta"><a href="programs.html" class="nav-link" >Our Programs</a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+    <!-- END nav -->
     
-    <div class="site-section cta-big-image" id="about-section">
+    <div class="hero-wrap">
+      <div class="overlay"></div>
+      <div class="container-fluid">
+        <div class="slider-text d-md-flex align-items-center" data-scrollax-parent="true">
+
+          <div class="one-forth ftco-animate align-self-md-center" data-scrollax=" properties: { translateY: '70%' }">
+          	<h1 class="mb-4"> We offer services in  
+              <strong class="typewrite" data-period="4000" data-type='[ "Software Development", "Designs and Branding", "Digital Marketing", "Business Consultancy" ]'>
+                <span class="wrap"></span>
+              </strong>
+            </h1>
+            <p class="mb-md-5 mb-sm-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">We offer these services at an affordable rate</p>
+            <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><a href="#" class="btn btn-primary px-4 py-3">Get in touch</a> <a href="#" class="btn btn-primary btn-outline-primary px-4 py-3">Our Portfolio</a></p>
+          </div>
+          <div class="one-half align-self-md-end align-self-sm-center">
+          	<div class="slider-carousel owl-carousel">
+          		<div class="item">
+			          <img src="images/dashboard_full_1.png" class="img-fluid img"alt="">
+		          </div>
+		          <div class="item">
+			          <img src="images/dashboard_full_2.png" class="img-fluid img"alt="">
+		          </div>
+		          <div class="item">
+			          <img src="images/dashboard_full_3.png" class="img-fluid img"alt="">
+		          </div>
+	          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <section class="ftco-section ftco-section-2">
+    	<div class="overlay"></div>
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-8">
+    				<h3 class="heading-white">We Provide High Quality Services</h3>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+  
+    <section class="ftco-section ftco-services">
       <div class="container">
-        <div class="row mb-5">
-          <div class="col-12 text-center" data-aos="fade">
-            <h2 class="section-title mb-3">About Us</h2>
+      	<div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 text-center heading-section ftco-animate">
+            <h2 class="mb-2">Our Service Keeps you Happy</h2>
+            <span class="subheading">Search Engine &amp; Social Media Optimization Experts</span>
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
-            <figure class="circle-bg">
-            <img src="images/hero_1.jpg" alt="Image" class="img-fluid">
-            </figure>
-          </div>
-          <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
-            <div class="mb-4">
-              <h3 class="h3 mb-4 text-black">For the next great business</h3>
-              <p>Our company offers a B2B service, we ensure that your business achieve its goals through our various services</p>
-              
-            </div>
-            
-            
-              
-            <div class="mb-4">
-              <ul class="list-unstyled ul-check success">
-                <li>Graphics Designs and Branding</li>
-                <li>Web Design and Development</li>
-                <li>Digital Marketing</li>
-                <li>Data Science and Analysis</li>
-                <li>Computer Services</li>
-                <li>And Lots More...</li>
-              </ul>
-              
-            </div> 
-          </div>
-        </div>
-      </div>  
-    </div>
-
-    <section class="site-section">
-      <div class="container">
-
-        <div class="row mb-5 justify-content-center">
-          <div class="col-md-7 text-center">
-            <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">Our Features</h2>
-            <p class="lead" data-aos="fade-up" data-aos-delay="100">When you come into BleauTech we ensure that you get the qualitative services needed and a conducive Co-working Space.</p>
-          </div>
-        </div>
-        
-        <div class="row" >
-          <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
-
-            <div class="owl-carousel slide-one-item-alt">
-              <img src="images/slide_1.jpg" alt="Image" class="img-fluid">
-              <img src="images/slide_2.jpg" alt="Image" class="img-fluid">
-              <img src="images/slide_3.jpg" alt="Image" class="img-fluid">
-              <img src="images/slide_4.jpg" alt="Image" class="img-fluid">
-            </div>
-            <div class="custom-direction">
-              <a href="#" class="custom-prev"><span><span class="icon-keyboard_backspace"></span></span></a><a href="#" class="custom-next"><span><span class="icon-keyboard_backspace"></span></span></a>
-            </div>
-
-          </div>
-          <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
-            
-            <div class="owl-carousel slide-one-item-alt-text">
-              <div>
-                <h2 class="section-title mb-3">Minimal and Modern Design</h2>
-                <p class="lead">Our Design Agency gives your brand the best in graphics </p>
-                <p>Because we love your brand, our design agency intend to give you the best in graphic and web design to keep your business moving</p>
-
-                <p><a href="#" class="btn btn-primary mr-2 mb-2">Learn More</a></p>
+          <div class="col-md-4 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block text-center">
+              <div class="d-flex justify-content-center"><div class="icon"><span class="flaticon-research"></span></div></div>
+              <div class="media-body p-2 mt-3">
+                <h3 class="heading">Market Research</h3>
+                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
               </div>
-              <div>
-                <h2 class="section-title mb-3">Co-Working Space</h2>
-                <p class="lead">Have you tried our co-working space today?</p>
-                <p>Our Co-working space provides you with a Cool and condusive environment where you can work with 24/7 WiFi, Constant electricity, Hub Assistance, and Refreshment</p>
-
-                <p><a href="#" class="btn btn-primary mr-2 mb-2">Learn More</a></p>
+            </div>      
+          </div>
+          <div class="col-md-4 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block text-center">
+              <div class="d-flex justify-content-center"><div class="icon"><span class="flaticon-creativity"></span></div></div>
+              <div class="media-body p-2 mt-3">
+                <h3 class="heading">Business Strategy</h3>
+                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
               </div>
-              <div>
-                <h2 class="section-title mb-3">Take your business online</h2>
-                <p class="lead">Are you looking for digital marketers to put your business online?</p>
-                <p>Our expert digital marketers helps your business with Ads and promotions, online marketing, SEOs, Content Creation, and lots more.</p>
-
-                <p><a href="#" class="btn btn-primary mr-2 mb-2">Learn More</a></p>
+            </div>    
+          </div>
+          <div class="col-md-4 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block text-center">
+              <div class="d-flex justify-content-center"><div class="icon"><span class="flaticon-market"></span></div></div>
+              <div class="media-body p-2 mt-3">
+                <h3 class="heading">Data Analytics</h3>
+                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
               </div>
-              <div>
-                <h2 class="section-title mb-3">Other Computer and Online Services</h2>
-                <p class="lead">As the best tech company in owerri, we give you some basic online and computer services.</p>
-                <p>Our expert digital marketers helps your business with Ads and promotions, online marketing, SEOs, Content Creation, and lots more.</p>
-
-                <p><a href="#" class="btn btn-primary mr-2 mb-2">Learn More</a></p>
-              </div>
-            </div>
-            
+            </div>      
           </div>
         </div>
       </div>
-    </section>
-
-
-    <section class="site-section border-bottom bg-light" id="services-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-12 text-center" data-aos="fade">
-            <h2 class="section-title mb-3">Our Services</h2>
-          </div>
-        </div>
-        <div class="row align-items-stretch">
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
-            <div class="unit-4">
-              <div class="unit-4-icon mr-4"><span class="text-primary flaticon-startup"></span></div>
-              <div>
-                <h3>Graphics Designs and Branding</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                <p><a href="#">Learn More</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="unit-4">
-              <div class="unit-4-icon mr-4"><span class="text-primary flaticon-graphic-design"></span></div>
-              <div>
-                <h3>Digital Marketing</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                <p><a href="#">Learn More</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="unit-4">
-              <div class="unit-4-icon mr-4"><span class="text-primary flaticon-settings"></span></div>
-              <div>
-                <h3>Software Development Outsourcing</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                <p><a href="#">Learn More</a></p>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="">
-            <div class="unit-4">
-              <div class="unit-4-icon mr-4"><span class="text-primary flaticon-idea"></span></div>
-              <div>
-                <h3>IT Services</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                <p><a href="#">Learn More</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="unit-4">
-              <div class="unit-4-icon mr-4"><span class="text-primary flaticon-smartphone"></span></div>
-              <div>
-                <h3>Mobile App Development</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                <p><a href="#">Learn More</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="unit-4">
-              <div class="unit-4-icon mr-4"><span class="text-primary flaticon-head"></span></div>
-              <div>
-                <h3>Tech Hub Services</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                <p><a href="#">Learn More</a></p>
-              </div>
-            </div>
-          </div>
-
-        </div>
+      <div class="container-wrap mt-5">
+      	<div class="row d-flex no-gutters">
+      		<div class="col-md-6 img ftco-animate" style="background-image: url(images/about.jpg);">
+      		</div>
+      		<div class="col-md-6 d-flex">
+      			<div class="services-wrap">
+      				<div class="heading-section mb-5 ftco-animate">
+		            <h2 class="mb-2">Our Service Keeps you Happy</h2>
+		            <span class="subheading">Search Engine &amp; Social Media Optimization Experts</span>
+		          </div>
+      				<div class="list-services d-flex ftco-animate">
+      					<div class="icon d-flex justify-content-center align-items-center">
+      						<span class="icon-pencil"></span>
+      					</div>
+      					<div class="text">
+	      					<h3>Designs and Branding</h3>
+	      					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+      					</div>
+      				</div>
+      				<div class="list-services d-flex ftco-animate">
+      					<div class="icon d-flex justify-content-center align-items-center">
+      						<span class="icon-web"></span>
+      					</div>
+      					<div class="text">
+	      					<h3>Software Development Outsourcing</h3>
+	      					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+      					</div>
+      				</div>
+      				<div class="list-services d-flex ftco-animate">
+      					<div class="icon d-flex justify-content-center align-items-center">
+      						<span class="icon-pie-chart"></span>
+      					</div>
+      					<div class="text">
+	      					<h3>Digital  Marketing</h3>
+	      					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+      					</div>
+      				</div>
+      			</div>
+      		</div>
+      	</div>
       </div>
     </section>
 
-  
-    <section class="site-section bg-light" id="pricing-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-12 text-center" data-aos="fade-up">
-            <h2 class="section-title mb-3">Co-Working Space</h2>
-          </div>
+    <section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url(images/bg_1.jpg);" data-stellar-background-ratio="0.5">
+    	<div class="container">
+    		<div class="row justify-content-center">
+    			<div class="col-md-11">
+		    		<div class="row">
+		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center">
+		              <div class="text">
+		                <strong class="number" data-number="6780">0</strong>
+		                <span>Happy Clients</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center">
+		              <div class="text">
+		                <strong class="number" data-number="4500">0</strong>
+		                <span>Running Projects</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center">
+		              <div class="text">
+		                <strong class="number" data-number="4200">0</strong>
+		                <span>Project Completed</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center">
+		              <div class="text">
+		                <strong class="number" data-number="320">0</strong>
+		                <span>Cups of Coffee</span>
+		              </div>
+		            </div>
+		          </div>
+		        </div>
+	        </div>
         </div>
-        <div class="row mb-5">
-          <div class="col-md-6 mb-4 mb-lg-0 col-lg-4" data-aos="fade-up" data-aos-delay="">
-            <div class="pricing">
-              <h3 class="text-center text-black">Basic</h3>
-              <div class="price text-center mb-4 ">
-                <span><span>N500</span> / day</span>
-              </div>
-              <ul class="list-unstyled ul-check success mb-5">
-                
-                <li>Constant Power</li>
-                <li>Open Workspace</li>
-                <li class="remove">Fast working WiFi</li>
-                <li class="remove">Office Hub Assistance</li>
-                <li class="remove">Refreshment</li>
-              </ul>
-              <p class="text-center">
-                <a href="#" class="btn btn-secondary">Book Now</a>
-              </p>
-            </div>
-          </div>
-
-          <div class="col-md-6 mb-4 mb-lg-0 col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="pricing">
-              <h3 class="text-center text-black">Premium</h3>
-              <div class="price text-center mb-4 ">
-                <span><span>N1000</span> / day</span>
-              </div>
-              <ul class="list-unstyled ul-check success mb-5">
-                
-                <li>Constant Power</li>
-                <li>Open Workspace</li>
-                <li>Fast Working WiFi</li>
-                <li>Office Hub Assistance</li>
-                <li class="remove">Refreshment</li>
-              </ul>
-              <p class="text-center">
-                <a href="#" class="btn btn-primary">Book Now</a>
-              </p>
-            </div>
-          </div>
-
-          <div class="col-md-6 mb-4 mb-lg-0 col-lg-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="pricing">
-              <h3 class="text-center text-black">Professional</h3>
-              <div class="price text-center mb-4 ">
-                <span><span>N1500</span> / day</span>
-              </div>
-              <ul class="list-unstyled ul-check success mb-5">
-                
-                <li>Constant Power</li>
-                <li>Open Workspace</li>
-                <li>Fast Working WiFi</li>
-                <li>Office Hub Assistance</li>
-                <li>Refreshment</li>
-              </ul>
-              <p class="text-center">
-                <a href="#" class="btn btn-secondary">Book Now</a>
-              </p>
-            </div>
-          </div>
-        </div>
-
-  
-    
-    
-
-    <section class="site-section" id="blog-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-12 text-center" data-aos="fade">
-            <h2 class="section-title mb-3">Our Blog</h2>
-            <p class="lead" data-aos="fade-up" data-aos-delay="100">Stay Updated to what is happening in owerri and its environs.</p>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="">
-            <div class="h-entry">
-              <a href="single.html">
-                <img src="images/img_1.jpg" alt="Image" class="img-fluid">
-              </a>
-              <h2 class="font-size-regular"><a href="#">Where Do You Learn HTML & CSS in 2019?</a></h2>
-              <div class="meta mb-4">Ham Brook <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a href="#">News</a></div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-              <p><a href="#">Continue Reading...</a></p>
-            </div> 
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="h-entry">
-              <a href="single.html">
-                <img src="images/img_4.jpg" alt="Image" class="img-fluid">
-              </a>
-              <h2 class="font-size-regular"><a href="#">Where Do You Learn HTML & CSS in 2019?</a></h2>
-              <div class="meta mb-4">James Phelps <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a href="#">News</a></div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-              <p><a href="#">Continue Reading...</a></p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="h-entry">
-              <a href="single.html">
-                <img src="images/img_3.jpg" alt="Image" class="img-fluid">
-              </a>
-              <h2 class="font-size-regular"><a href="#">Where Do You Learn HTML & CSS in 2019?</a></h2>
-              <div class="meta mb-4">James Phelps <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a href="#">News</a></div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-              <p><a href="#">Continue Reading...</a></p>
-            </div> 
-          </div>
-          
-        </div>
-      </div>
+    	</div>
     </section>
 
-   
-
-
-    <section class="site-section bg-light" id="contact-section" data-aos="fade">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-12 text-center">
-            <h2 class="section-title mb-3">Contact Us</h2>
-          </div>
-        </div>
-        <div class="row mb-5">
-          
-
-
-          <div class="col-md-4 text-center">
-            <p class="mb-4">
-              <span class="icon-room d-block h4 text-primary"></span>
-              <span>Plot 29 Area B Opposite Suncity Hotel New Owerri Imo, NG</span>
-            </p>
-          </div>
-          <div class="col-md-4 text-center">
-            <p class="mb-4">
-              <span class="icon-phone d-block h4 text-primary"></span>
-              <a href="#">+234 813 2213 689</a>
-            </p>
-          </div>
-          <div class="col-md-4 text-center">
-            <p class="mb-0">
-              <span class="icon-mail_outline d-block h4 text-primary"></span>
-              <a href="#">contact@bleautech.org</a>
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 mb-5">
-
-            
-
-            <form action="#" class="p-5 bg-white">
-              
-              <h2 class="h4 text-black mb-5">Contact Form</h2> 
-
-              <div class="row form-group">
-                <div class="col-md-6 mb-3 mb-md-0">
-                  <label class="text-black" for="fname">First Name</label>
-                  <input type="text" id="fname" class="form-control">
-                </div>
-                <div class="col-md-6">
-                  <label class="text-black" for="lname">Last Name</label>
-                  <input type="text" id="lname" class="form-control">
-                </div>
+    <section class="ftco-quote">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-6 pr-md-5 aside-stretch py-5 choose">
+    				<div class="heading-section heading-section-white mb-5 ftco-animate">
+	            <h2 class="mb-2">Reasons for Choosing Us </h2>
+	          </div>
+	          <div class="ftco-animate">
+	          	<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. Because there were thousands of bad Commas, wild Question Marks and devious Semikoli</p>
+	          	<ul class="un-styled my-5">
+	          		<li><span class="icon-check"></span>Consectetur adipisicing elit</li>
+	          		<li><span class="icon-check"></span>Adipisci repellat accusamus</li>
+	          		<li><span class="icon-check"></span>Tempore reprehenderit vitae</li>
+	          	</ul>
+	          </div>
+    			</div>
+    			<div class="col-md-6 py-5 pl-md-5">
+    				<div class="heading-section mb-5 ftco-animate">
+	            <h2 class="mb-2">Leave a Quick Message</h2>
+	          </div>
+	          <form action="#" class="ftco-animate">
+	          	<div class="row">
+	          		<div class="col-md-6">
+		              <div class="form-group">
+		                <input type="text" class="form-control" placeholder="Full Name">
+		              </div>
+	              </div>
+	              <div class="col-md-6">
+		              <div class="form-group">
+		                <input type="text" class="form-control" placeholder="Email">
+		              </div>
+	              </div>
+	              <div class="col-md-6">
+	              	<div class="form-group">
+		                <input type="text" class="form-control" placeholder="Phone">
+		              </div>
+		            </div>
+	              <div class="col-md-6">
+	              	<div class="form-group">
+		                <input type="text" class="form-control" placeholder="Website">
+		              </div>
+		            </div>
+		            <div class="col-md-12">
+		              <div class="form-group">
+		                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+		              </div>
+		            </div>
+		            <div class="col-md-12">
+		              <div class="form-group">
+		                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+		              </div>
+	              </div>
               </div>
-
-              <div class="row form-group">
-                
-                <div class="col-md-12">
-                  <label class="text-black" for="email">Email</label> 
-                  <input type="email" id="email" class="form-control">
-                </div>
-              </div>
-
-              <div class="row form-group">
-                
-                <div class="col-md-12">
-                  <label class="text-black" for="subject">Subject</label> 
-                  <input type="subject" id="subject" class="form-control">
-                </div>
-              </div>
-
-              <div class="row form-group">
-                <div class="col-md-12">
-                  <label class="text-black" for="message">Message</label> 
-                  <textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="Write your notes or questions here..."></textarea>
-                </div>
-              </div>
-
-              <div class="row form-group">
-                <div class="col-md-12">
-                  <input type="submit" value="Send Message" class="btn btn-primary btn-md text-white">
-                </div>
-              </div>
-
-  
             </form>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+		
+
+
+
+
+    <section class="ftco-section-parallax">
+      <div class="parallax-img d-flex align-items-center">
+        <div class="container">
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+              <h2>Subcribe to our Newsletter</h2>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
+              <div class="row d-flex justify-content-center mt-5">
+                <div class="col-md-8">
+                  <form action="#" class="subscribe-form">
+                    <div class="form-group d-flex">
+                      <input type="text" class="form-control" placeholder="Enter email address">
+                      <input type="submit" value="Subscribe" class="submit px-3">
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
           </div>
-          
         </div>
       </div>
     </section>
 
-    
-    <footer class="site-footer">
+    <section class="ftco-section">
       <div class="container">
+        <div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 text-center heading-section ftco-animate">
+            <h2 class="mb-2">Latest Blog</h2>
+            <span class="subheading">Read our blog</span>
+          </div>
+        </div>
         <div class="row">
-          <div class="col-md-9">
-            <div class="row">
-              <div class="col-md-5">
-                <h2 class="footer-heading mb-4">About Us</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
+          <div class="col-md-4 ftco-animate">
+            <div class="blog-entry">
+              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
+              </a>
+              <div class="text py-4">
+                <div class="meta mb-3">
+                  <div><a href="#">August 12, 2018</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+                <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
               </div>
-              <div class="col-md-3 ml-auto">
-                <h2 class="footer-heading mb-4">Quick Links</h2>
-                <ul class="list-unstyled">
-                  <li><a href="#about-section" class="smoothscroll">About Us</a></li>
-                  <li><a href="#services-section" class="smoothscroll">Services</a></li>
-                  <li><a href="#testimonials-section" class="smoothscroll">Testimonials</a></li>
-                  <li><a href="#contact-section" class="smoothscroll">Contact Us</a></li>
-                </ul>
+            </div>
+          </div>
+          <div class="col-md-4 ftco-animate">
+            <div class="blog-entry" data-aos-delay="100">
+              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
+              </a>
+              <div class="text py-4">
+                <div class="meta mb-3">
+                  <div><a href="#">August 12, 2018</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+                <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
               </div>
-              <div class="col-md-3">
-                <h2 class="footer-heading mb-4">Follow Us</h2>
-                <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
-                <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
-                <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-                <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+            </div>
+          </div>
+          <div class="col-md-4 ftco-animate">
+            <div class="blog-entry" data-aos-delay="200">
+              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
+              </a>
+              <div class="text py-4">
+                <div class="meta mb-3">
+                  <div><a href="#">August 12, 2018</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+                <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-3">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2"><img src="images/bleau8.png" alt=""></h2>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            </div>
+            <ul class="ftco-footer-social list-unstyled float-md-left float-lft ">
+              <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+              <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+              <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <div class="ftco-footer-widget mb-4 ml-md-5">
+              <h2 class="ftco-heading-2">Quick Links</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="py-2 d-block">About</a></li>
+                <li><a href="#" class="py-2 d-block">Features</a></li>
+                <li><a href="#" class="py-2 d-block">Projects</a></li>
+                <li><a href="#" class="py-2 d-block">Blog</a></li>
+                <li><a href="#" class="py-2 d-block">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4 pr-md-4">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Recent Blog</h2>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(images/image_1.jpg);"></a>
+                <div class="text">
+                  <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
+                  <div class="meta">
+                    <div><a href="#"><span class="icon-calendar"></span> Sept 15, 2018</a></div>
+                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(images/image_2.jpg);"></a>
+                <div class="text">
+                  <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
+                  <div class="meta">
+                    <div><a href="#"><span class="icon-calendar"></span> Sept 15, 2018</a></div>
+                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
           <div class="col-md-3">
-            <h2 class="footer-heading mb-4">Subscribe Newsletter</h2>
-            <form action="#" method="post" class="footer-subscribe">
-              <div class="input-group mb-3">
-                <input type="text" class="form-control border-secondary text-white bg-transparent" placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2">
-                <div class="input-group-append">
-                  <button class="btn btn-primary text-black" type="button" id="button-addon2">Send</button>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-        <div class="row pt-5 mt-5 text-center">
-          <div class="col-md-12">
-            <div class="border-top pt-5">
-              <p>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by Dominic
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            </p>
-        
+            <div class="ftco-footer-widget mb-4">
+            	<h2 class="ftco-heading-2">Contact Info</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	                <li><span class="icon icon-map-marker"></span><span class="text">Plot F29 Area B New Owerri, Owerri</span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+234 813 2213 689</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@bleautech.org</span></a></li>
+	              </ul>
+	            </div>
             </div>
           </div>
-          
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> Bleautech Org
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
         </div>
       </div>
     </footer>
+    
+  
 
-  </div> <!-- .site-wrap -->
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/jquery-ui.js"></script>
+  <!-- Modal -->
+  <div class="modal fade" id="modalRequest" tabindex="-1" role="dialog" aria-labelledby="modalRequestLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalRequestLabel">Request a Quote</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form action="#">
+            <div class="form-group">
+              <!-- <label for="appointment_name" class="text-black">Full Name</label> -->
+              <input type="text" class="form-control" id="appointment_name" placeholder="Full Name">
+            </div>
+            <div class="form-group">
+              <!-- <label for="appointment_email" class="text-black">Email</label> -->
+              <input type="text" class="form-control" id="appointment_email" placeholder="Email">
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <!-- <label for="appointment_date" class="text-black">Date</label> -->
+                  <input type="text" class="form-control" id="appointment_date" placeholder="Date">
+                </div>    
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <!-- <label for="appointment_time" class="text-black">Time</label> -->
+                  <input type="text" class="form-control" id="appointment_time" placeholder="Time">
+                </div>
+              </div>
+            </div>
+            
+
+            <div class="form-group">
+              <!-- <label for="appointment_message" class="text-black">Message</label> -->
+              <textarea name="" id="appointment_message" class="form-control" cols="30" rows="10" placeholder="Message"></textarea>
+            </div>
+            <div class="form-group">
+              <input type="submit" value="Get a Quote" class="btn btn-primary">
+            </div>
+          </form>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.countdown.min.js"></script>
   <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
   <script src="js/aos.js"></script>
-  <script src="js/jquery.fancybox.min.js"></script>
-  <script src="js/jquery.sticky.js"></script>
-  <script src="js/isotope.pkgd.min.js"></script>
-
-  
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
     
   </body>
